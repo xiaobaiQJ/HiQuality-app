@@ -1,0 +1,609 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"sc",
+				"scene"
+			],
+			[
+				"document",
+				"documentElement"
+			],
+			[
+				"d",
+				"documentElement"
+			],
+			[
+				"m",
+				"myCanvas"
+			],
+			[
+				"texta",
+				"text-align\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"bo",
+				"border-bottom\tproperty"
+			],
+			[
+				"text",
+				"text-indent\tproperty"
+			],
+			[
+				"puli",
+				"publicWelfare"
+			],
+			[
+				"s",
+				"summary"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"i",
+				"images"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"tr",
+				"transition\tproperty"
+			],
+			[
+				"p",
+				"p\tpadding"
+			],
+			[
+				"r",
+				"rgba()\tbackground"
+			],
+			[
+				"ov",
+				"overflow\tproperty"
+			],
+			[
+				"tra",
+				"transform\tproperty"
+			],
+			[
+				"li",
+				"line-height\tproperty"
+			],
+			[
+				"trans",
+				"transition\tproperty"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"H",
+				"HAMS"
+			],
+			[
+				"border-",
+				"border-bottom\tproperty"
+			],
+			[
+				"texi",
+				"text-align\tproperty"
+			],
+			[
+				"paddig",
+				"padding-bottom\tproperty"
+			],
+			[
+				"fw",
+				"font-weight\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"par",
+				"partFilter"
+			],
+			[
+				"o",
+				"onclick"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"bid",
+				"bidId"
+			],
+			[
+				"cl",
+				"clearSpan"
+			],
+			[
+				"ty",
+				"typeId"
+			],
+			[
+				"id",
+				"unitId"
+			],
+			[
+				"co",
+				"counts"
+			],
+			[
+				"min-",
+				"min-height\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"padding-",
+				"padding-top\tproperty"
+			],
+			[
+				"t",
+				"transform"
+			],
+			[
+				"c",
+				"cellspacing\tAttr"
+			],
+			[
+				"b",
+				"border\tAttr"
+			],
+			[
+				"js",
+				"json"
+			],
+			[
+				"com",
+				"companyBtn"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fonts",
+				"font-size\tproperty"
+			],
+			[
+				"font-",
+				"font-size\tproperty"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"工程",
+				"工程单位（1）"
+			],
+			[
+				"en",
+				"engineering"
+			],
+			[
+				"il",
+				"inline-block\tdisplay"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"lh",
+				"line-height\tproperty"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"vi",
+				"vertical-align\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Administrator/Desktop/canvas.html",
+		"/E/Official network/page/about/about.html",
+		"/E/Official network/css/about/about.css",
+		"/C/Users/Administrator/Desktop/sprite.html",
+		"/D/WWW/QMS/page/subpage.html",
+		"/D/WWW/QMS/js/index.js",
+		"/D/WWW/QMS/index.html",
+		"/E/Official network/index.html",
+		"/E/Official network/page/water.html",
+		"/E/Official network/page/solution.html",
+		"/E/Official network/page/investment.html",
+		"/E/Official network/page/intelligence.html",
+		"/E/Official network/page/industryCase.html",
+		"/E/Official network/page/index.html",
+		"/E/Official network/page/highway.html",
+		"/E/Official network/page/smartsite/summary.html",
+		"/E/Official network/page/quality/summary.html",
+		"/E/Official network/page/QDMS/summary.html",
+		"/E/Official network/page/QDMS/location.html",
+		"/E/Official network/page/QDMS/function.html",
+		"/E/Official network/page/QDMS/dispose.html",
+		"/E/Official network/page/QDMS/customer.html",
+		"/E/Official network/page/QDMS/case.html",
+		"/E/Official network/page/PMS/summary.html",
+		"/E/Official network/page/PMS/location.html",
+		"/E/Official network/page/PMS/function.html",
+		"/E/Official network/page/PMS/dispose.html",
+		"/E/Official network/page/PMS/customer.html",
+		"/E/Official network/page/PMS/case.html",
+		"/E/Official network/page/monitor/summary.html",
+		"/E/Official network/page/monitor/location.html",
+		"/E/Official network/page/monitor/function.html",
+		"/E/Official network/page/monitor/dispose.html",
+		"/E/Official network/page/monitor/customer.html",
+		"/E/Official network/page/monitor/case.html",
+		"/E/Official network/page/HAMS/summary.html",
+		"/E/Official network/page/HAMS/location.html",
+		"/E/Official network/page/HAMS/function.html",
+		"/E/Official network/page/HAMS/dispose.html",
+		"/E/Official network/page/HAMS/customer.html",
+		"/E/Official network/page/HAMS/case.html",
+		"/E/Official network/page/cloud/summary.html",
+		"/E/Official network/page/cloud/price.html",
+		"/E/Official network/page/CDMS/summary.html",
+		"/E/Official network/page/about/report.html",
+		"/E/Official network/page/about/publicWelfare.html",
+		"/E/Official network/page/about/news.html",
+		"/E/Official network/page/about/job.html",
+		"/E/Official network/page/about/course.html",
+		"/E/Official network/page/about/activity.html",
+		"/E/Official network/css/commonstyle.css",
+		"/C/Users/Administrator/Desktop/hua.html",
+		"/C/Users/Administrator/Desktop/vue/vue.js",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/WEB-INF/jsp/mobile/neq_management.jsp",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/WEB-INF/jsp/mobile/nmaterial_index.jsp",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/WEB-INF/jsp/mobile/npersonal_index.jsp",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/WEB-INF/jsp/mobile/npersonal_position_list.jsp",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/WEB-INF/jsp/mobile/project_index.jsp",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/WEB-INF/jsp/mobile/work_index.jsp",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/WEB-INF/jsp/mobile/user_attend_list.jsp",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/WEB-INF/jsp/mobile/npersonal_attend_list.jsp",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/WEB-INF/jsp/mobile/npersonal_profess_list.jsp",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/WEB-INF/jsp/mobile/personal_index.jsp",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/mobile/css/icofont/iconfont.svg",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/mobile/css/icofont/iconfont.css",
+		"/C/Users/Administrator/Desktop/vue/vue3.html",
+		"/C/Users/Administrator/Desktop/vue/vue2.html",
+		"/C/Users/Administrator/Desktop/vue/vue1.html",
+		"/C/Users/Administrator/Desktop/vue/vue.html",
+		"/C/Users/Administrator/Desktop/vue.html",
+		"/C/Users/Administrator/Desktop/vue.js",
+		"/C/Users/Administrator/Desktop/vue。html",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/WEB-INF/jsp/system/index/foot.jsp",
+		"/D/work/apache-tomcat-7.0.88/webapps/SHFW/mobile/css/ui.css",
+		"/C/Users/Administrator/Desktop/canvas1.html",
+		"/E/Official network/css/index.css",
+		"/E/Official network/css/intelligence.css",
+		"/E/Official network/css/water.css",
+		"/E/Official network/css/highway.css",
+		"/E/Official network/js/job.js",
+		"/E/Official network/js/dropdown.js",
+		"/E/Official network/page/information/summary.html",
+		"/E/Official network/css/solution.css",
+		"/C/Users/Administrator/Desktop/table.html",
+		"/E/Official network/css/about/job.css",
+		"/E/Official network/css/about/publicWelfare.css",
+		"/E/Official network/css/about/course.css",
+		"/E/Official network/css/about/report.css",
+		"/E/Official network/css/about/news.css",
+		"/E/Official network/css/about/activity.css",
+		"/E/Official network/css/cloud/price.css",
+		"/E/Official network/css/cloud/summary.css",
+		"/E/Official network/page/about.html",
+		"/E/Official network/css/industryCase.css",
+		"/E/Official network/css/about.css",
+		"/E/Official network/css/CDMS/summary.css",
+		"/E/Official network/css/HAMS/summary.css",
+		"/E/Official network/css/HAMS/function.css",
+		"/E/Official network/css/information/summary.css",
+		"/E/Official network/css/monitor/summary.css",
+		"/E/Official network/css/monitor/function.css",
+		"/E/Official network/css/PMS/summary.css",
+		"/E/Official network/css/PMS/function.css",
+		"/E/Official network/css/QDMS/summary.css",
+		"/E/Official network/css/QDMS/function.css",
+		"/E/Official network/css/quality/summary.css",
+		"/E/Official network/js/pop.js",
+		"/E/Official network/css/monitor/case.css",
+		"/E/Official network/css/iconfont/iconfont.css",
+		"/E/Official network/css/publicstyle.css",
+		"/E/Official network/css/investment.css",
+		"/E/Official network/js/index.js",
+		"/E/Official network/css/PMS/customer.css",
+		"/E/Official network/css/PMS/case.css",
+		"/E/Official network/css/PMS/dispose.css",
+		"/E/Official network/css/HAMS/case.css",
+		"/E/Official network/css/PMS/location.css",
+		"/E/Official network/page/HAMS/HAMS.html",
+		"/E/Official network/css/HAMS/HAMS.css",
+		"/E/Official network/css/HAMS/dispose.css",
+		"/E/Official network/css/HAMS/location.css",
+		"/E/Official network/css/HAMS/customer.css",
+		"/E/Official network/css/HAMS.css",
+		"/E/Official network/css/common.css",
+		"/E/Official network/page/HAMS.html",
+		"/C/Users/Administrator/Documents/WeChat Files/yux941024/Files/InvWo1.html",
+		"/C/Users/Administrator/Documents/WeChat Files/yux941024/Files/InvWo1.js",
+		"/C/Users/Administrator/Desktop/unslider-150203225543/index.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "build.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

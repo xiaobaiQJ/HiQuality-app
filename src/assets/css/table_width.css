@@ -1,0 +1,711 @@
+.width-742 {
+  width: 742px;
+}
+
+.width-754 {
+  width: 754px;
+}
+
+.width-803 {
+  width: 803px;
+}
+
+.width-820 {
+  width: 820px;
+}
+
+.width-814 {
+  width: 814px;
+}
+
+.width-834 {
+  width: 834px;
+}
+
+.width-844 {
+  width: 844px;
+}
+
+.width-852 {
+  width: 852px;
+}
+
+.width-864 {
+  width: 864px;
+}
+
+.width-884 {
+  width: 884px;
+}
+
+.width-894 {
+  width: 894px;
+}
+
+.width-874 {
+  width: 874px;
+}
+
+.width-916 {
+  width: 916px;
+}
+
+.width-924 {
+  width: 924px;
+}
+
+.width-934 {
+  width: 934px;
+}
+
+.width-968 {
+  width: 968px;
+}
+
+.width-974 {
+  width: 974px;
+}
+
+.width-984 {
+  width: 984px;
+}
+
+.width-734 {
+  width: 734px;
+}
+
+.width-763 {
+  width: 763px;
+}
+
+.width-784 {
+  width: 784px;
+}
+
+.width-794 {
+  width: 794px;
+}
+
+.width-775 {
+  width: 775px;
+}
+
+.width-710 {
+  width: 710px;
+}
+
+.width-534 {
+  width: 534px;
+}
+
+.width-559 {
+  width: 559px;
+}
+
+.width-547 {
+  width: 547px;
+}
+
+.width-598 {
+  width: 598px;
+}
+
+.width-618 {
+  width: 618px;
+}
+
+.width-654 {
+  width: 654px;
+}
+
+.width-663 {
+  width: 663px;
+}
+
+.width-682 {
+  width: 682px;
+}
+
+.width-608 {
+  width: 608px;
+}
+
+.width-648 {
+  width: 648px;
+}
+
+.width-623 {
+  width: 623px;
+}
+
+.width-662 {
+  width: 662px;
+}
+
+.width-696 {
+  width: 696px;
+}
+
+.width-30 {
+  width: 30px !important;
+}
+
+.width-1013 {
+  width: 1013px;
+}
+
+.width-1023 {
+  width: 1023px;
+}
+
+.width-1033 {
+  width: 1033px;
+}
+
+.width-1043 {
+  width: 1043px;
+}
+
+.width-1053 {
+  width: 1053px;
+}
+
+.width-1063 {
+  width: 1063px;
+}
+
+.width-1104 {
+  width: 1104px;
+}
+
+.width-1113 {
+  width: 1113px;
+}
+
+.width-1300 {
+  width: 1300px;
+}
+
+.width-1440 {
+  width: 1440px;
+}
+
+.width-991 {
+  width: 991px;
+}
+
+.width-949 {
+  width: 949px;
+}
+
+.width-944 {
+  width: 944px;
+}
+
+.width-905 {
+  width: 905px;
+}
+
+.width-1004 {
+  width: 1004px;
+}
+
+.width-1070 {
+  width: 1070px;
+}
+
+.width-1086 {
+  width: 1086px;
+}
+
+.width-1125 {
+  width: 1125px;
+}
+
+.width-1143 {
+  width: 1143px;
+}
+
+.width-1191 {
+  width: 1191px;
+}
+
+.width-1223 {
+  width: 1223px;
+}
+
+.input-400 {
+  width: 400px !important;
+}
+
+.input-300 {
+  width: 300px !important;
+}
+
+.input-50 {
+  width: 50px !important;
+}
+
+.input-60 {
+  width: 60px !important;
+}
+
+.input-65 {
+  width: 65px !important;
+}
+
+.input-105 {
+  width: 105px !important;
+}
+
+.input-120 {
+  width: 120px !important;
+}
+
+.input-95 {
+  width: 95px !important;
+}
+
+.input-175 {
+  width: 175px !important;
+}
+.input-195 {
+  width: 195px !important;
+}
+.input-200 {
+  width: 200px !important;
+}
+
+.input-210 {
+  width: 210px !important;
+}
+
+.input-230 {
+  width: 230px !important;
+}
+
+.input-20 {
+  width: 20px !important;
+}
+
+.input-80 {
+  width: 80px !important;
+}
+
+.input-70 {
+  width: 70px !important;
+}
+
+.input-25 {
+  width: 25px !important;
+}
+
+.input-100 {
+  width: 100px !important;
+}
+
+.input-140 {
+  width: 140px !important;
+}
+
+.input-160 {
+  width: 160px !important;
+}
+
+.height-30 {
+  height: 33px !important;
+}
+
+.tr-height {
+  height: 45px !important;
+}
+
+.height-16 {
+  height: 16px !important;
+}
+
+/*C表顶部标题字体, (顶部有右边页面标题的页面)*/
+.main-c > p:nth-child(1) {
+  font-size: 14px;
+  font-weight: 700;
+  /*margin-top: 5px;
+  margin-bottom: 5px;*/
+}
+
+.main-c > p:nth-child(2), .main-c > p:nth-child(3) {
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.main-c > p:nth-child(4) {
+  font-size: 18px;
+  margin: 2px 0;
+}
+
+.main-c > h3:nth-child(1) {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.main-c table {
+  width: 1053px;
+}
+
+.main-c .text-left > span:nth-child(1) > input {
+  width: 500px !important;
+}
+
+.main-c .text-left > span:nth-child(2) > input {
+  width: 260px !important;
+}
+.main-c .c-bot-input input{
+  text-align: left!important;
+}
+.CLM-01 .top-name-p,.CLM-01 .text-left{
+  width: 1143px!important;
+}
+.CLM-07 .top-name-p,.CLM-07 .text-left{
+  width: 1106px!important;
+}
+.table-tr-height-40 td {
+  height: 40px;
+}
+
+.table-tr-height-40 td input {
+  height: 36px;
+}
+
+.table-tr-height-45 td {
+  height: 45px !important;
+}
+
+.table-tr-height-45 td input {
+  height: 40px !important;
+}
+
+.table-tr-height-45 td {
+  height: 45px !important;
+}
+
+.table-tr-height-55 td {
+  height: 55px !important;
+}
+
+.table-tr-height-55 td input {
+  height: 50px !important;
+}
+
+.table-tr-height-30 td {
+  height: 30px !important;
+}
+
+.table-tr-height-30 td input {
+  height: 25px !important;
+}
+
+.table-tr-height-35 td {
+  height: 35px !important;
+}
+
+.table-tr-height-35 td input {
+  height: 30px !important;
+}
+
+.table-tr-height-22 td {
+  height: 22px !important;
+}
+
+.table-tr-height-22 td input {
+  height: 18px !important;
+}
+.table-tr-height-20 td {
+  height: 20px !important;
+}
+
+.table-tr-height-20 td input {
+  height: 18px !important;
+}
+.table-tr-height-18 td {
+  height: 18px !important;
+}
+
+.table-tr-height-18 td input {
+  height: 16px !important;
+}
+.table-tr-height-25 td {
+  height: 25px !important;
+}
+
+.table-tr-height-25 td input {
+  height: 22px !important;
+}
+
+.table-tr-height-75 td {
+  height: 75px !important;
+}
+
+.table-tr-height-75 td input {
+  height: 70px !important;
+}
+
+.table-padding td {
+  padding: 0 5px !important;
+}
+
+.table-padding5px td {
+  padding: 5px !important;
+}
+
+.padding-top5px {
+  padding-top: 5px;
+}
+
+/*K表表头*/
+.k-title-input input {
+  width: 245px!important;
+}
+.textarea-p > span {
+  position: relative;
+  bottom: 30px;
+}
+.textarea-p-k01 > span {
+  position: relative;
+  bottom: 17px;
+}
+/*A表顶部标题字体*/
+.main-a > p:nth-child(1) {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.main-a > p:nth-child(2) {
+  font-size: 16px;
+}
+
+.main-a > p:nth-child(3) {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px auto;
+}
+
+.main-a > h3 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/*D表顶部标题字体*/
+.main-d > p:nth-child(1) {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.main-d > p:nth-child(2) {
+  font-size: 16px;
+}
+
+.main-d > h3:nth-child(1) {
+  font-size: 14px;
+  margin: 5px auto;
+}
+
+.main-d > h3:nth-child(2) {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/*FJ1(房建类型1)表顶部标题字体*/
+.main-fj1 > p:nth-child(1) {
+  font-size: 18px;
+}
+
+.main-fj1 > p:nth-child(2) {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.main-fj1 > p:nth-child(3) {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+/*FJ3(房建类型3)表顶部标题字体*/
+.main-fj3 > p:nth-child(1) {
+  font-size: 18px;
+}
+
+.main-fj3 > p:nth-child(2) {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.main-fj3 > p:nth-child(3) {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/*FJ5(房建类型5)表顶部标题字体*/
+.main-fj5 > p:nth-child(1) {
+  font-size: 18px;
+}
+
+.main-fj5 > p:nth-child(2) {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.main-fj5 > p:nth-child(3) {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.main-fj5 > p:nth-child(4) {
+  font-weight: bold;
+}
+
+/*A表打印样式----纵向打印*/
+.lengthways-a table {
+  width: 630px;
+}
+
+.lengthways-a .text-left, .lengthways-a .bot-hint-p, .lengthways-a .top-name-p, .lengthways-a .public-tilte, .lengthways-a .title-p-right {
+  width: 623px !important;
+}
+
+/*A表打印样式----横向打印*/
+/*横向表格*/
+.crosswise {
+  /*padding-top: 20px;*/
+}
+.crosswise table {
+  width: 1053px;
+  margin: 0 auto;
+}
+
+.crosswise > div {
+  width: 1053px;
+  /*margin: 0 auto;*/
+}
+.a-table-hei25 td {
+  height: 25px !important;
+}
+
+.a-table-hei25 td input {
+  height: 20px !important;
+}
+.crosswise table{
+  width: 1053px;
+}
+.crosswise .bot-hint-p,.crosswise .top-name-p,.crosswise .tabel-title-A,.crosswise .text-left{
+  width: 1053px;
+}
+.crosswise .bot-hint-p input{
+  width: 160px!important;
+}
+.crosswise .bot-hint-p input.date-input{
+  width: 40px!important;
+}
+.crosswise .public-tilte{
+  width: 1053px;
+}
+.crosswise .public-tilte input {
+  width: 260px;
+}
+
+.main-bkp > h3 {
+  font-size: 14px;
+}
+
+/*AQ表顶部标题字体*/
+.main-aq > p:nth-child(1), .main-aq > p:nth-child(2) {
+  font-size: 16px;
+  margin: 5px auto;
+}
+
+.main-aq > h3 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.aq-top-input input {
+  width: 240px;
+}
+
+/*JL表顶部标题字体*/
+.main-jl > p:nth-child(1), .main-jl > p:nth-child(2) {
+  font-size: 15px;
+}
+
+.main-jl > h3 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.ad-textarea textarea {
+  margin: 5px;
+  width: 94%;
+  height: 94%;
+}
+
+/*PX表顶部标题字体*/
+.main-px > p:nth-child(1) {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.main-px > p:nth-child(2) {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.main-px > h4 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/*文本两端对齐*/
+#recNo>span{
+  width: 44px;
+  display: inline-block;
+  text-align-last:justify !important;
+  text-align:justify !important;
+  text-justify:distribute-all-lines !important;
+}
+/*小型预制构件页面的顶部标题*/
+.main-dz>p:nth-child(1),.main-dz>p:nth-child(2){
+  font-size: 15px;
+  margin-top: 3px;
+}
+.main-dz>p:nth-child(2){
+
+}
+.main-dz>h3{
+  font-size: 18px;
+  margin: 2px 0;
+}
+/*K模块外观质量复选框 ----------vant中的复选框*/
+.checkbox-icon{
+  width: 36px;
+  display: inline-block;
+  text-align-last:justify !important;
+  text-align:justify !important;
+  text-justify:distribute-all-lines !important;
+  user-select: none;
+  box-sizing: border-box;
+}
+.checkbox-icon .iconfont{
+  font-size: 12px;
+  vertical-align: middle
+}
+
+.A46 .bot-hint-p .longinput{
+  width: 230px!important;
+}
+/*A52 表格上面的责查表样式*/
+.top-right{
+  margin-left: 300px;
+}

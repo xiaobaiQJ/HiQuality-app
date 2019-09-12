@@ -1,0 +1,638 @@
+
+#app, html, body {
+  font-family: 宋体;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  color: #616161;
+  font-size: 12px !important;
+  height: 100%;
+  /*background: #F5F6F7;*/
+}
+
+.myClear {
+  clear: both;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1223116 */
+  src: url('//at.alicdn.com/t/font_1223116_m59m87iisaf.eot');
+  src: url('//at.alicdn.com/t/font_1223116_m59m87iisaf.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1223116_m59m87iisaf.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1223116_m59m87iisaf.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1223116_m59m87iisaf.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1223116_m59m87iisaf.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+span {
+  font-size: 12px;
+}
+
+/*AQ表 附：选项*/
+.aq-checkDiv {
+  width: 70%;
+}
+
+.float-left {
+  float: left!important;
+}
+
+.float-right {
+  float: right;
+}
+
+.padding-12px {
+  padding-top: 12px;
+}
+
+h3, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.p-lineheight-20 {
+  line-height: 20px;
+}
+
+.p-lineheight-40 {
+  line-height: 40px;
+}
+
+.p-lineheight {
+  line-height: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 3px;
+}
+
+table, th, tr, td {
+  border: 1px solid #616161;
+}
+
+/*input[type="text"]:disabled{
+  color: #000000;
+}*/
+input {
+  border: none;
+  outline: none;
+  padding: 0;
+  background: #fff;
+  margin: 0;
+  font-size: 12px;
+  font-family: 宋体;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.addTr:hover {
+  cursor: pointer;
+}
+
+/*.td-input{
+  display: inline-block;
+  height: 100%;
+}*/
+.title-input {
+  border-bottom: 1px solid #666 !important;
+  text-align: center;
+}
+
+.display-lnl {
+  display: inline;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  height: 80%;
+  /*margin-top: 5px;*/
+  background-color: #fff;
+  /*color: #616161;*/
+  overflow-x: hidden;
+  overflow-y: hidden;
+  resize: none;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: 宋体;
+  font-weight: normal;
+}
+
+textarea::-webkit-input-placeholder {
+  font-size: 12px;
+  color: #BCBCBC;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 12px;
+  color: #BCBCBC;
+}
+
+textarea:hover {
+  cursor: pointer;
+  /*border-bottom: 1px solid #009fd5;*/
+}
+
+.height-textarea {
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bot-input {
+  display: inline-block;
+  width: 6%;
+}
+
+.add-btn:nth-child(2) {
+  display: none;
+}
+
+.add-btn:nth-child(1) {
+  content: "sadsa";
+}
+
+.delete-btn {
+  background: #dd0000 !important;
+  display: none;
+}
+
+.name-input {
+  display: inline-block;
+  width: 60px;
+}
+
+.date-input {
+  display: inline-block;
+  width: 40px !important;
+}
+
+/*提交按钮样式*/
+.btn {
+  /*width: 500px;*/
+  margin: 20px auto 0px auto;
+  font-size: 14px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.sub-btn {
+  color: white;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #1a9de3;
+  border-radius: 20px;
+  margin: 0 10px;
+  z-index: 1000 !important;
+}
+
+.long-btn {
+  width: 100px;
+}
+
+/*.child-btn{
+  width: 80px;
+}*/
+.sub-btn:hover {
+  cursor: pointer;
+  filter: brightness(1.1);
+}
+
+p, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+  font-family: 宋体;
+}
+
+table p {
+  font-size: 12px;
+}
+
+.public-tabel td {
+  text-align: center;
+  height: 40px;
+}
+.public-tabel div {
+  font-weight: bold;
+  color: #404040;
+}
+.center-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.public-tabel td input {
+  width: 90%;
+  height: 36px;
+  text-align: center;
+  font-weight: normal;
+}
+.public-tabel td textarea {
+  font-weight: normal;
+}
+/*tabel上面的承包单位，合同号等信息部分*/
+.text-left {
+  width: 570px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 10px;
+  font-weight: bold;
+  color: #404040;
+}
+.text-left input{
+  font-weight: normal;
+}
+.text-left > span:nth-child(1) > input {
+  width: 240px;
+  height: 20px;
+}
+
+.text-left > span:nth-child(2) > input {
+  width: 175px;
+  height: 20px;
+}
+
+.text-left > span:nth-child(1) {
+  float: left;
+  text-align: left;
+}
+
+.padding0 td {
+  padding: 0 !important;
+}
+
+.text-left > span:nth-child(2) {
+  float: right;
+  text-align: right;
+}
+
+.title-left {
+  width: 599px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.title-left input {
+  width: 300px;
+}
+
+.tilte-right {
+  width: 599px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.tilte-right input {
+  width: 80px;
+}
+
+.tr-left td {
+  text-align: left;
+}
+
+/*底部tabel下面的输入部分*/
+.bot-div {
+  width: 690px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.ht-20 {
+  height: 20px;
+}
+
+.padding-tb {
+  padding: 20px 0;
+}
+
+.td-height {
+  height: 30px;
+}
+
+.td-height input {
+  height: 100%;
+}
+
+.textarea-width {
+  width: 100%;
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
+.float-left {
+  float: right;
+}
+
+.float-right {
+  float: right;
+}
+
+.size-12 {
+  font-size: 12px;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+.size-16 {
+  font-size: 16px;
+}
+
+.size-18 {
+  font-size: 18px;
+}
+
+.el-input__inner {
+  border-radius: 0px;
+}
+
+.ht-10 {
+  height: 10px;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #848484;
+}
+
+::-webkit-input-placeholder {
+
+}
+
+.disabled-btn {
+  /*filter: brightness(.8) !important;*/
+}
+
+.disabled-btn:hover {
+  /*
+  cursor: not-allowed !important;
+  */
+
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/*AQ表 表格上面的左右表单输入部分*/
+.top-input-div {
+  width: 50%;
+  text-align: left;
+}
+
+.tabel-title-A {
+  width: 649px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 5px 20px;
+}
+
+.tabel-title-A > p:nth-child(1) {
+  width: 50%;
+  text-align: left;
+}
+
+.tabel-title-A > p:nth-child(1) input {
+  width: 60%;
+}
+
+.tabel-title-A > p:nth-child(2) {
+  width: 50%;
+  text-align: right;
+}
+
+/*.bot-master-a{
+  width: 649px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}*/
+.title-width-1091 {
+  width: 1091px;
+}
+
+/*表格底部的提示文字*/
+.bot-hint-p {
+  width: 669px;
+  margin: 10px auto;
+  text-align: left;
+  box-sizing: border-box;
+  /*padding-left: 20px;*/
+}
+
+/*表格上面页面名称（靠右边）*/
+.top-name-p {
+  width: 669px;
+  margin: 0 auto;
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 5px;
+}
+
+.top-name-p input {
+  padding-left: 5px;
+  text-align: left;
+}
+
+.bot-public-div > p {
+  width: 50%;
+  text-align: left;
+}
+
+/*表格上面的 责查表 单行文字（靠右边）*/
+.title-p-right {
+  text-align: right;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+/*表格上面的 公共表单部分*/
+.margin-auto {
+  width: 669px;
+  margin: 0 auto;
+}
+
+.public-tilte {
+  box-sizing: border-box;
+  /*padding-left: 20px;*/
+}
+
+.public-tilte > div {
+  /*width: 50%;*/
+  text-align: left;
+}
+
+.public-tilte > div > p {
+  padding: 0;
+  font-weight: bold;
+}
+
+/*.public-tilte > div > p input{
+  width: 200px;
+}*/
+.public-tilte > div > p > input {
+  height: 18px;
+  font-weight: normal;
+}
+.public-tilte > div textarea {
+  font-weight: normal;
+}
+
+.public-tilte > div:nth-child(1) > p > input {
+  width: 260px;
+}
+
+.height-25 {
+  height: 25px !important;
+}
+
+.addPage {
+  font-weight: bold;
+}
+
+.addPage:hover {
+  cursor: pointer;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.tr-active {
+  background: #cccccc !important;
+}
+
+.tr-active input {
+  background: #cccccc !important;
+  color: red !important;
+}
+
+.t-left {
+  text-align: left;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.mar-right-30 {
+  margin-right: 30px;
+}
+
+/*AQ表 顶部右边编号样式*/
+.t-right {
+  text-align: right;
+}
+
+.radio-input {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border: 1px solid #616161;
+}
+
+.logo-img {
+  position: relative;
+  top: 10px;
+}
+
+.mar-left-4 {
+  margin-left: 4%;
+}
+
+.mar-left-10 {
+  margin-left: 10%;
+}
+
+.mar-left-25 {
+  margin-left: 25%;
+}
+
+.mar-left-30 {
+  margin-left: 30%;
+}
+
+.mar-left-35 {
+  margin-left: 35%;
+}
+
+.mar-left-30px {
+  margin-left: 30px;
+}
+
+.mar-left-38px {
+  margin-left: 38px;
+}
+
+.mar-left-55px {
+  margin-left: 55px;
+}
+
+.mar-right-15 {
+  margin-right: 15%;
+}
+
+.mar-left-30px {
+  margin-left: 30px;
+}
+
+.dateDiv {
+  font-size: 12px;
+  font-family: 宋体;
+}
+
+.el-picker-panel td,tr,th,tbody,table{
+  border: none;
+}

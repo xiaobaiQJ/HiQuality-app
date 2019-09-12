@@ -1,0 +1,102 @@
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <title></title>
+</head>
+<script>
+  // 隐藏打印内的内容之方式2 按ctrl+P 打印时有效
+  function onbeforeprint() {
+    //打印之前执行的方法：将一些不需要打印的隐藏
+    //document.getElementById("btn").hide();
+    alert("此文档即将打印！");
+  }
+  function onafterprint() {
+    //打印之后执行的方法：放开隐藏的元素
+    //document.getElementById("btn").show();
+    alert("此文档现在正在打印！");
+  }
+</script>
+
+<body onbeforeprint="onbeforeprint()" onafterprint="onafterprint()">
+
+<h3>0000000000000000000000000000000000</h3>
+<!--start-->
+<h3>1111111111111111111111111111111111</h3>
+<h3>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</h3>
+<h3>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</h3>
+<h3>1111111111111111111111111111111111</h3>
+<h3>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</h3>
+<h3>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</h3>
+<h3>1111111111111111111111111111111111</h3>
+<h3>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</h3>
+<h3>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</h3>
+<!-- 隐藏打印内的内容之方式1：亲测style标签放在head标签中设置无效 -->
+<style media="print">
+  .noprint {
+    display: none;
+  }
+</style>
+<div id="btn">
+  <input type="button" class="noprint" value="打印" onClick="printPage()" />
+</div>
+
+<!--end-->
+<iframe id="printf" src="" width="0" height="0" frameborder="0"></iframe>
+</div>
+<script type="text/javascript">
+  var hkey_root, hkey_path, hkey_key;
+  hkey_root = "HKEY_CURRENT_USER";
+  hkey_path = "\\Software\\Microsoft\\Internet Explorer\\PageSetup\\"; //网页打印时设置清空页眉页脚
+
+
+  function setup_null() {
+    try {
+      var RegWsh = new ActiveXObject("WScript.Shell")
+      hkey_key = "header"
+      RegWsh.RegWrite(hkey_root + hkey_path + hkey_key, "")
+      hkey_key = "footer"
+      RegWsh.RegWrite(hkey_root + hkey_path + hkey_key, "")
+    } catch (e) { }
+  }
+
+  function setup_default() { //网页打印时设置页眉页脚默认值
+    try {
+      var RegWsh = new ActiveXObject("WScript.Shell")
+      hkey_key = "header"
+      RegWsh.RegWrite(hkey_root + hkey_path + hkey_key, "&w&b页码，&p/&P")
+      hkey_key = "footer"
+      RegWsh.RegWrite(hkey_root + hkey_path + hkey_key, "&u&b&d")
+    } catch (e) { }
+  }
+
+  function doPrint(printDiv) {
+    try {
+      setup_null();
+      newwin = window.open("", "newwin", "height=" + window.screen.height + ",width=" + window.screen.width +
+        ",toolbar=no,scrollbars=auto,menubar=no");
+      newwin.document.body.innerHTML = document.getElementById(printDiv).innerHTML;
+      newwin.window.print();
+      newwin.window.close();
+      setup_default();
+    } catch (e) { }
+  }
+
+  function printPage() { //获取当前页的html代码
+    setup_null();
+    bdhtml = window.document.body.innerHTML;
+    sprnstr = "<!--start-->";
+    eprnstr = "<!--end-->";
+    printhtml = bdhtml.substr(bdhtml.indexOf(sprnstr) + 12);//这个数字貌似没有用
+    printhtml = printhtml.substring(0, printhtml.indexOf(eprnstr));
+    f = document.getElementById('printf');
+    f.contentDocument.write(printhtml); //写入到新的iframe窗口
+    f.contentDocument.close();
+    f.contentWindow.print(); //在新的iframe窗口调用浏览器打印机
+  }
+
+</script>
+</body>
+
+</html>
